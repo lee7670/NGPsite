@@ -182,4 +182,12 @@
     }
     .linkedin{
         background-color: #e1e1e1;
-    
+    }
+    #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 427px;
+    }
+    #owl-demo{
+        width: 1170px;
+    }
