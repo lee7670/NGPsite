@@ -191,3 +191,8 @@
     #owl-demo{
         width: 1170px;
     }
+    #owl-demo .item {
+        background-color:#bebebe;
+        border:2px solid #af0000;
+        border-radius:5px;
+    }
