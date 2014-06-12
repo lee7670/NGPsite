@@ -5,7 +5,9 @@ $(document).ready(function() {
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem:true
+      singleItem : true,
+      autoHeight : true,
+      transitionStyle : "fade"
   });
  
 });
