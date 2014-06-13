@@ -202,3 +202,12 @@
         min-height: 400px;
     }
     
+.blogbody {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.bloghead {
+    color: #af0000;
+    margin-left: 15px;
+}
