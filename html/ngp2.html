@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/vnd.microsoft.icon"
 	href="../images/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../css/Styles1.css">
-   <link rel="stylesheet" type="text/css" href="../owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../owl.carousel/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="../owl.carousel/owl-carousel/owl.theme.css">
     <script src="../owl.carousel/assets/js/jquery-1.9.1.min.js"></script>
     <script src="../owl.carousel/owl-carousel/owl.carousel.js"></script>
@@ -31,16 +31,33 @@
 
 	<!--content-->
 	<div id="content">
+        <div id="fb-root"></div>
+        <script>
+        window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '622537391186605',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+        };    
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=622537391186605&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <center>
         <div id="owl-demo" class="owl-carousel owl-theme">
             <div class="item">
-                <center>
+                <!--<center>
                 <p style="font-size:24px;color:#af0000">Watch our promo!</p>
                 <object width="560" height="315" margin-top="15px" margin-bottom="15px">
                     <param name="movie" value="//www.youtube.com/v/GGWPJbNgS7A?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
                     <embed src="//www.youtube.com/v/GGWPJbNgS7A?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true" style="padding:15px"></embed>
                 </object>
-                </center>
+                </center>-->
+                <div class="fb-like-box" data-href="https://www.facebook.com/NGPthinkbeyondink" data-width="1170" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             </div>
             <div class="item"><a href="http://www.teespring.com/thinkbeyondink"><img src="../images/Shirtbanner.png" ></a></div>
             <div class="item">
