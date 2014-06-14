@@ -169,6 +169,7 @@
     }
     .email{
         background-color: #e1e1e1;
+        vertical-align: inherit;
     }
     .conlog{
         float:right;
@@ -211,4 +212,8 @@
 .bloghead {
     color: #af0000;
     margin-left: 15px;
+}
+
+a {
+    
 }
