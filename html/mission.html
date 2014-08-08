@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="toggle.js"></script>
-	<title>FAQ</title>
-	<link rel="icon" type="image/vnd.microsoft.icon"
-	href="f../images/avicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="../css/Styles1.css">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <head>
+        <title>Next Generation Printing</title>
+        <link rel="icon" type="image/vnd.microsoft.icon"
+	href="../images/favicon.ico"/>
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/drop.css">
+        <script type="text/javascript" src="../js/drop.js"/></script>
+        <link href="../owl.carousel/assets/css/custom.css" rel="stylesheet">
 
-  ga('create', 'UA-53296814-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
-<body>
-	<!--header-->
-	<div id="header">
-		<p class="headp"><img src="../images/white.png" alt="logo" class="right" /> Think Beyond Ink.</p>
-	</div>
-		
-	<!--navigation bar-->	
-	<div class="navigation">	
-		<ul class="navbar">
-			<li class="heading3" style="color:white"><a class="a2" href = "mission.html">ABOUT US</a></li>	
-			<li class="heading2"><a class="ht" href = "blog.html">BLOG</a></li>	
-			<li class="heading2"><a class="ht" href = "../index.html">NGP</a></li>	
-			<li class="heading2"><a class="ht" href = "support.html">SUPPORT US</a></li>	
-			<li class="heading2"><a class="ht" href = "faq.html">FAQ</a></li>	
-		</ul>
-	</div>
-	<!--content-->
+    <!-- Owl Carousel Assets -->
+    <link href="../owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="../owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
     
-	<div id="content">
-        <p style="color:#af0000;font-size:35px; margin-left:15px;">Who We Are</p><br>
-        <ol style="text-align:left">
-            <li style="font-size:25px">
-                -CEO<br>
-                <a class="linkedin" href="http://www.linkedin.com/pub/daniel-suh/98/735/118/"><em>     Daniel Suh</em></a><br>
-                <img src="../images/Dan.jpg" height = "256" width = "256" class="i" />  
-                <p style="margin-bottom:50px">After a successful freshman year at the University of Michigan, I am looking to pursue a Mechanical Engineering degree with a minor in Multidisciplinary Design. My research at Montefiore Hospital on cancer cells led me to the marvels of 3D bioprinting, and thus began my interest in 3D printing. I founded an Entrepreneurs' Club at Edgemont High School. We received an educational grant and purchased a 3D printer for our school with the money. I continued to expand my entrepreneurial experiences by participating in MPowered Entrepreneurship. My team developed a vlogging site that connected student entrepreneurship groups across the country. Besides entrepreneurial experience, I have accumulated other skills during my time at Michigan. I am capable of programming in C++ and HTML/CSS, and am familiar with modeling software such as NX 8.5 and AutoCad. In my spare time, I like to come up with future entrepreneurial projects to pursue and relax with my brothers at the Michigan Chapter of Triangle Fraternity and my friends.
-                </p>
+    
+    
+    </head>
+    <body>
+        <div class="nav">
+            
+            <div class="heading">
+                <h1 style="color:#e72828">NextGen</h1><h2 style="color:#6d6d6d">Printing</h2>
+                <p>think beyond ink</p>
+            </div>
+            <img src="../images/box.png" class="box">
+        </div>
+        <div class="red">
+        </div>    
+        
+        <div class="grid_12">
+                <div class="bar"> 
+                    <dl class="dropdown">
+                        <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">NGP<br></dt>
+                        <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+                            <ul>
+                              <li><a href="index.html" class="separator">Home</a></li>    
+                              <li><a href="about.html" class="separator">About Us</a></li>
+                              <li><a href="contact.html" class="separator">Contact Us</a></li>
+                              <li><a href="faq.html" class="separator">FAQ</a></li>
+                              <li><a href="smap.html" class="separator">Site Map</a></li> 
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="dropdown">
+                        <dt id="two-ddheader" onmouseover="ddMenu('two',1)" onmouseout="ddMenu('two',-1)">News<br></dt>
+                        <dd id="two-ddcontent" onmouseover="cancelHide('two')" onmouseout="ddMenu('two',-1)">
+                            <ul>
+                              <li><a href="http://thinkbeyondink.net/blog" class="separator">The Blog</a></li>
+                                 </ul>
+                        </dd>
+                    </dl>
+                    <dl class="dropdown">
+                        <dt id="three-ddheader" onmouseover="ddMenu('three',1)" onmouseout="ddMenu('three',-1)">Support Us<br></dt>
+                        <dd id="three-ddcontent" onmouseover="cancelHide('three')" onmouseout="ddMenu('three',-1)">
+                        <ul>
+                            <li><a href="#" class="separator">The Goods</a></li>
+                            <li><a href="#" class="separator">Our Designs</a></li>
+                            <li><a href="order.html" class="separator">Place an Order</a></li>
+                        </ul>
+                        </dd>
+                    </dl>
+                </div>
                 
-            </li>
-            <p style="clear: both;">
-            <li style="font-size:25px">
-                -CTO<br>
-                <a class="linkedin" href="http://www.linkedin.com/pub/theodore-lee/7a/a43/7b" ><em>       Teddy Lee</em></a><br>
-                <img src="../images/Teddy.jpg" height = "256" width = "256" class="i" />  
-                <p>I am a student at Carnegie Mellon University. I'm studying Electrical and Computer Engineering and minoring in Animation. My main area of expertise is additive manufacturing technology. I am proficient in programming in several languages including C, Java, and HTML/CSS/Javascript. In addition I am comfortable in several CAD packages including Solidworks and openSCAD as well as more organic modeling/animation tools such as Autodesk Maya. I enjoy modeling funny objects in my spare time.</p>
-            </li>
-            <p style="clear: both;">
-            <li style="font-size:25px">
-                -COO<br>
-                <a class="linkedin" href="https://www.linkedin.com/pub/sensen-chen/99/207/794"<em>     Sensen Chen</em></a><br>
-                <img src="../images/Sensen.jpg" height = "256" width = "256" class="i" />  
-                <p>I'm a student at Rensselaer Polytechnic Institute. I'm majoring in computer science and minoring in design. I am knowledgeable in many programming languages including C++, Html/CSS, Python, and Java; additionally I am proficient in adobe photoshop. I enjoy playing pool in my free time and designing new programs and games.</p>
-            </li>
-            <p style="clear: both;">
-            <li style="font-size:25px">
-                -CFO<br>
-                <a class="linkedin" href="http://www.linkedin.com/pub/jacob-nadler/98/953/a22" ><em>       Jacob Nadler</em></a> <br>
-                <img src="../images/Jake.jpg" height = "256" width = "256" class="i" />  
-                <p>I am currently a sophomore at The University of Massachusetts at Amherst. I am currently a 'Dean's list' student pursuing a double major in political science and psychology; through this I am on a 'Pre-Law' track towards law school. In addition to my studies I enjoy fencing and public speaking / debate. Throughout high school I worked as a political canvasser and advisor for numerous small scale political campaigns. In my free time I enjoy sleeping, a lot.</p>
-            </li>
-            <p style="clear: both;">
-            <li style="font-size:25px">
-                -CMO<br>
-                <em>     Anderson Shu</em><br>
-                <img src="../images/Anderson.jpg" height = "256" width = "256" class="i" />  
-                <p>I am currently a sophomore at The University of Michigan. As of now, I am majoring in biology and minoring in psychology. Despite my current studies, I harbor a love for design and art and have served as an illustrator and designer for a variety of organizations which include the school newspaper and Pi Alpha Phi. I am proficient in GIMP and enjoy drawing graphic novels and doodling in my free time.</p>
-            </li>
-            <p style="clear: both;">
-        </ol>
-	</div>
-
-    <!--footer-->
-    <div id="footer">
-        <img src="../images/box.png" alt="box" class="bar"/>
-        <ul class="foot">
-            <li class="footing" style="color:#00a6dc"><a class="a3" href = "map.html">Site Map</li>
-            <li class="footing" style="color:#00a6dc"><a class="a3" href = "blog.html">Blog</li>
-            <li class="footing" style="color:#00a6dc"><a class="a3" href = "news.html">News </li>
-            <li class="footing" style="color:#00a6dc"><a class="a3" href = "contact.html">Contact Us</li>
-        </ul>
-    </div>
-</body>
+                <div class="bcontainer">
+                    <div class="container_1">  
+                        <h1 class="p2">Who We Are</h1>
+                        <ul>
+                            <li style="font-size:20px;list-style-type:none;margin-left:30px;">Daniel Suh<br>
+                            <a class="linkedin" href="http://www.linkedin.com/pub/daniel-suh/98/735/118/">                                 <em style="font-size:15px;margin-left:5px;">- CEO</em></a><br>
+                            <img src="../images/Dan.jpg" height = "160" width = "160" class="i"/>  
+                            <p style="margin-bottom:20px;margin-top:10px;">After a successful freshman year at the University of Michigan, I am looking to pursue a Mechanical Engineering degree with a minor in Multidisciplinary Design. My research at Montefiore Hospital on cancer cells led me to the marvels of 3D bioprinting, and thus began my interest in 3D printing. I founded an Entrepreneurs' Club at Edgemont High School. We received an educational grant and purchased a 3D printer for our school with the money. I continued to expand my entrepreneurial experiences by participating in MPowered Entrepreneurship. My team developed a vlogging site that connected student entrepreneurship groups across the country. Besides entrepreneurial experience, I have accumulated other skills during my time at Michigan. I am capable of programming in C++ and HTML/CSS, and am familiar with modeling software such as NX 8.5 and AutoCad. In my spare time, I like to come up with future entrepreneurial projects to pursue and relax with my brothers at the Michigan Chapter of Triangle Fraternity and my friends.</p>
+                            </li><p style="clear: both;">
+                            
+                            <li style="font-size:20px;list-style-type:none;margin-left:30px;">Teddy Lee<br>
+                            <a class="linkedin" href="http://www.linkedin.com/pub/theodore-lee/7a/a43/7b"> 
+                            <em style="font-size:15px;margin-left:5px;">- CTO</em></a><br>
+                            <img src="../images/Teddy.jpg" height = "160" width = "160" class="i" />  
+                            <p style="margin-bottom:20px;margin-top:10px;">I am a student at Carnegie Mellon University. I'm studying Electrical and Computer Engineering and minoring in Animation. My main area of expertise is additive manufacturing technology. I am proficient in programming in several languages including C, Java, and HTML/CSS/Javascript. In addition I am comfortable in several CAD packages including Solidworks and openSCAD as well as more organic modeling/animation tools such as Autodesk Maya. I enjoy modeling funny objects in my spare time.</p>
+                            </li><p style="clear: both;">
+            
+                            <li style="font-size:20px;list-style-type:none;margin-left:30px;">Sensen Chen<br>
+                            <a class="linkedin" href="https://www.linkedin.com/pub/sensen-chen/99/207/794"> 
+                            <em style="font-size:15px;margin-left:5px;">- COO</em></a><br>
+                            <img src="../images/Sensen.jpg" height = "160" width = "160" class="i"/>
+                            <p style="margin-bottom:20px;margin-top:10px;">I'm a student at Rensselaer Polytechnic Institute. I'm majoring in computer science and minoring in design. I am knowledgeable in many programming languages including C++, Html/CSS, Python, and Java; additionally I am proficient in adobe photoshop. I enjoy playing pool in my free time and designing new programs and games.</p>
+                            </li><p style="clear: both;">
+                            
+                            <li style="font-size:20px;list-style-type:none;margin-left:30px;">Jacob Nadler<br>
+                            <a class="linkedin" href="http://www.linkedin.com/pub/jacob-nadler/98/953/a22"> 
+                            <em style="font-size:15px;margin-left:5px;">- CFO</em></a><br>
+                            <img src="../images/Jake.jpg" height = "160" width = "160" class="i"/>
+                            <p style="margin-bottom:20px;margin-top:10px;">I am currently a sophomore at The University of Massachusetts at Amherst. I am currently a 'Dean's list' student pursuing a double major in political science and psychology; through this I am on a 'Pre-Law' track towards law school. In addition to my studies I enjoy fencing and public speaking / debate. Throughout high school I worked as a political canvasser and advisor for numerous small scale political campaigns. In my free time I enjoy sleeping, a lot.</p>
+                            </li><p style="clear: both;">
+                            
+                            <li style="font-size:20px;list-style-type:none;margin-left:30px;">Anderson Shu<br>
+                            <a class="linkedin" href="#"> 
+                            <em style="font-size:15px;margin-left:5px;">- CMO</em></a><br>
+                            <img src="../images/Anderson.jpg" height = "160" width = "160" class="i"/>
+                            <p style="margin-bottom:20px;margin-top:10px;">I am currently a sophomore at The University of Michigan. As of now, I am majoring in biology and minoring in psychology. Despite my current studies, I harbor a love for design and art and have served as an illustrator and designer for a variety of organizations which include the school newspaper and Pi Alpha Phi. I am proficient in GIMP and enjoy drawing graphic novels and doodling in my free time.</p>
+                            </li><p style="clear: both;">
+                        </ul>    
+                    </div>
+                    <div class="container_2">
+                        <div id="design"><a href="#">Our Designs</a></div>
+                        <div id="order"><a href="#">PLACE ORDER</a></div>
+                        <img src="../images/animbox.gif"style="width:190px">
+                    </div>
+                </div>    
+                <div class="footer">
+                    <div class="stuff">
+                        <a href="https://www.facebook.com/NGPthinkbeyondink"><img src="../images/fb.png" width=30px></a>
+                        <a href=""><img src="../images/twitter.png" width=30px ></a>
+                        <a href=""><img src="../images/pintrest.png" width=30px ></a>
+                        <a href=""><img src="../images/rss.png" width=30px ></a>
+                    </div>
+                </div>
+            </div>
+   
+        </div>  
+    </body>
 </html>

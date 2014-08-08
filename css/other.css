@@ -1,0 +1,212 @@
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    
+}
+
+.box {
+        width:50px;
+		margin-top: 10px;
+		float: right;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 0;
+}
+    
+a:link {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+a:active {
+	color: inherit;
+}
+
+.heading {
+    float: right;
+    padding-right: 40px;
+}
+
+.nav {
+    background-color: #bebebe;
+    max-width: 2550px;
+    height: 125px;
+    padding-top:5px;
+    z-index: 20;
+}
+
+.nav h1{
+    display: inline;
+    font-weight: normal;
+    font-size: 65px;
+    margin-left: 15px;
+}
+
+.nav h2{
+    display: inline;
+    font-weight: normal;
+    font-size: 65px;
+    margin-left: 15px;
+}
+
+.nav p{
+    font-size: 30px;
+    color: white;
+    margin-left: 300px;
+}
+
+.red {
+    background: #af0000;
+    height: 30px;
+    max-width: 2550px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image:url(../images/background3.png);
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color:#bebebe;
+}
+
+.grid_12 {
+    padding: 10px;
+    padding-left: 100px;
+    min-width: 1000px;
+    z-index: 0;
+    height: 100%
+}
+
+.bar {
+    background: white;
+    height: 50px;
+    width: 1070px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.10);
+    z-index: 20;
+}
+
+.bar ul {
+    padding-left: 40px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bar li {
+    margin-right: 50px; 
+}
+
+.map_item {
+    margin: 20px 10px 0px 15px;
+    padding: 5px;
+    border: 2px solid #af0000;
+    border-radius: 5px;
+    max-width: 200px;
+    font-size: 30px;
+    background: #e27cf8;
+    text-align: center;
+    color: white;
+}
+
+.map_item:hover {
+    background-color: #bebebe;
+}
+
+.catagory {
+    display: inline;
+    float: left;
+    margin: 20px;
+    width:200px;
+}
+
+.catagory h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color:white;
+}
+
+.catagory li{
+    list-style-type: none;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    border: 2px solid #af0000;
+    border-radius: 5px;
+    max-width: 200px;
+    text-align: center;
+    color: black;
+}
+
+#cat_1 li{
+    background:#67cbff;
+}
+
+#cat_2 li{
+    background:#c0ec60;
+}
+
+#cat_3 li{
+    background:#ec9f60;
+}
+
+#cat_1 li:hover,#cat_2 li:hover,#cat_3 li:hover{
+    background: #bebebe;
+}
+
+.map {
+    width: 1000px;
+    height: 440px;
+}
+
+.blog h1{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    color: #af0000;
+    background-color: white;
+    border-radius: 5px;
+}
+.blog h2{
+    margin: 0;
+    padding: 0;
+    color: #af0000;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article{
+    margin: 0;
+    margin-right: 60px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.footer{
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.end {
+    float: right;
+    margin-right: 100px;
+}

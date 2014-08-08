@@ -1,0 +1,195 @@
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic,sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+.box {
+        width:50px;
+		margin-top: 10px;
+		float: right;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 0;
+}
+    
+a:link {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+a:active {
+	color: inherit;
+}
+
+.heading {
+    float: right;
+    padding-right: 40px;
+}
+
+.nav {
+    background-color: #bebebe;
+    max-width: 2550px;
+    height: 125px;
+    padding-top:5px;
+    z-index: 20;
+}
+
+.nav h1{
+    display: inline;
+    font-weight: normal;
+    font-size: 65px;
+    margin-left: 15px;
+}
+
+.nav h2{
+    display: inline;
+    font-weight: normal;
+    font-size: 65px;
+    margin-left: 15px;
+}
+
+.nav p{
+    font-size: 30px;
+    color: white;
+    margin-left: 300px;
+}
+
+.red {
+    background: #af0000;
+    height: 30px;
+    max-width: 2550px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image:url(../images/background3.png);
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color:#bebebe;
+}
+
+.grid_12 {
+    padding: 10px;
+    padding-left: 100px;
+    min-width: 1000px;
+    z-index: 0;
+}
+
+.bar {
+    height: 50px;
+    width: 800px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.10);
+    z-index: 20;
+}
+
+.bar ul {
+    padding-left: 40px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bar li {
+    margin-right: 50px; 
+}
+
+#right {
+    padding-top:30px;
+    float: left;
+    width:800px;  
+}
+
+#right li{
+    display:inline;
+}
+
+#left {
+    float: left;
+    width: 200px;
+    padding-top: 80px;
+}
+
+.container_1 {
+    min-height: 375px; 
+    width: 800px;
+    background: white;
+    z-index: -1;
+    padding-top: 20px;
+}
+
+.container_2 {
+    min-height: 350px;
+    background: white;
+    width:250px;
+    border-left: 1px solid black;
+    color: white;
+}
+
+#design {
+    background: #bebebe;
+    text-align: center;
+    width:250x;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#order {
+    background: #a1a1a1;
+    text-align: center;
+    width:250x;
+    font-size: 30px;
+    padding: 10px;
+}
+.ol2{
+    margin-left: 41px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.answer {
+    font-size: 13px;
+    padding-top: 5px;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 85%;
+}
+.question {
+    background-color: rgba(0, 0, 0, 0);
+    color: #af0000;
+    font-size: 18px;
+}
+
+.ht:hover{
+    padding-bottom: 0px;
+    border-bottom: 1px solid #af0000;
+}
+
+.QA{
+    margin-bottom: 15px;
+}
+
+#Sfaq{
+    display: inline-block;
+    float: right;
+    width: 256px;
+    height: 256px;
+}
+
+.footer{
+    float: right;
+    margin: 10px;
+    margin-right: 61px;
+}
